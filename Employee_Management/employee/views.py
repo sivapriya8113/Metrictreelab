@@ -8,16 +8,6 @@ from .serializer import employeeserializer
 from .models import Employee
 
 # Create your views here.
-'''@api_view(['Get'])
-def api_overview(request):
-    api_urls={
-        'List': '/product-list/',
-        'Detail view': '/product-detail/<int:id>',
-        'Create': '/product-create/',
-        'Update': '/product-update/<int:id>',
-        'Delete': '/product-delete/<int:id>',
-    }
-    return Response(api_urls)  '''
 
 
 #list
